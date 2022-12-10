@@ -52,12 +52,3 @@ inquirer
         },
     ])
     .then((r) => fs.writeFile("./outputs/README.md", markdown.create(r), (e) => (e ? console.error(e.message) : console.log("Success!"))));
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
