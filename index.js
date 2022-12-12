@@ -38,7 +38,7 @@ inquirer
             type: "list",
             message: "Choose License",
             name: "license",
-            choices: ["a", "b", "c"],
+            choices: ["apache2.0", "boost", "cc1.0", "gnu gpl v3"],
         },
         {
             type: "input",
