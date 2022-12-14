@@ -51,4 +51,4 @@ inquirer
             name: "email",
         },
     ])
-    .then((r) => fs.writeFile("./outputs/README.md", markdown.create(r), (e) => (e ? console.error(e.message) : console.log("Success!"))));
+    .then((r) => fs.writeFile("./utils/README.md", markdown.create(r), (e) => (e ? console.error(e.message) : console.log("Success!"))));
